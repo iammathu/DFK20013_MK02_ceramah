@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <title>Ceramah Pembangunan Diri</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Ceramah Pembangunan Diri & Kerjaya</h1>
+    <p>Bersama Pakar Industri</p>
+</header>
+
+<section>
+    <img src="gambar.png" alt="Penceramah">
+    <h2>Maklumat Ceramah</h2>
+    <p><strong>Penceramah:</strong> Encik.Sabri Bin Saep</p>
+    <p><strong>Kepakaran:</strong> Motivasi & Kerjaya</p>
+    <p><strong>Tarikh:</strong> 20 Februari 2026</p>
+    <p><strong>Masa:</strong> 9.00 pagi – 1.00 tengah hari</p>
+    <p><strong>Lokasi:</strong> Dewan Utama Politeknik</p>
+    <p><strong>Yuran:</strong> RM2,500.00</p>
+    <p><strong>Hubungi:</strong> info@ceramah.com</p>
+</section>
+
+<section>
+    <h2>Borang Tempahan</h2>
+
+    <form id="tempahanForm">
+        <label>Nama Penuh</label>
+        <input type="Mathu Barathy" id="nama" required>
+
+        <label>E-mel</label>
+        <input type="mathubarathy188@gmail.com" id="email" required>
+
+        <label>No Telefon</label>
+        <input type="0166022048" id="telefon" required>
+
+        <label>Kategori Peserta</label>
+        <select id="kategori" required>
+            <option value="">-- Pilih --</option>
+            <option>Pelajar</option>
+            <option>Pensyarah</option>
+            <option>Orang Awam</option>
+            <option>Korporat</option>
+        </select>
+
+        <label>Bilangan Slot</label>
+        <input type="number" id="slot" min="1" required>
+
+        <label>Bukti Pembayaran</label>
+        <input type="file" required>
+
+        <label>
+            <input type="checkbox" id="terma" required>
+            Saya setuju dengan terma & syarat
+        </label>
+
+        <button type="submit">Hantar</button>
+    </form>
+</section>
+
+<section id="pengesahan" class="confirm">
+    <h2>Pengesahan Pendaftaran</h2>
+    <div id="output"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
